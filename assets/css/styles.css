@@ -890,7 +890,7 @@ select {
   height: 3em;
   padding: 0 4em 0 1em;
   background: url(https://upload.wikimedia.org/wikipedia/commons/9/9d/Caret_down_font_awesome_whitevariation.svg) no-repeat right 0.8em center/1.4em, linear-gradient(to left, rgb(0, 217, 255) 3em, rgba(4, 0, 255, 0.239) 3em);
-  color: rgb(218, 200, 200);
+  color: white;
   border-radius: 0.25em;
   box-shadow: 0 0 1em 0 rgb(0, 247, 255);
   cursor: pointer;
