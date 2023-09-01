@@ -17,7 +17,7 @@
 /* FONT STYLE */
 :root {
   --body-font: "Poppins", sans-serif;
-  --big-font-size: 1rem;
+  --big-font-size: 4rem;
   --h2-font-size: 1.5rem;
   --nomral-font-size: 0.938rem;
 }
@@ -186,7 +186,7 @@ div.text {
   background-size: 800%;
   font-family: Arial, Helvetica, sans-serif;
   font-weight: 900;
-  font-size: 5vw;
+  font-size: 6vw;
   letter-spacing: -1px;
   text-transform: uppercase;
   -webkit-background-clip: text;
@@ -433,19 +433,19 @@ div.text {
 /* WORK */
 
 .work {
-  text-align: center;
+  text-align: right;
 }
 
 .work_container {
-  row-gap: 1rem;
+  row-gap: 12rem;
 }
 
 .work_img {
-  box-shadow: 0 10px 95px rgba(0, 5, 215, 0.65);
+/*  box-shadow: 0 2px 25px blueviolet;*/
   border-radius: 1rem;
   overflow: hidden;
-  width: 60%;
-  height: 50%;
+  width: 80%;
+  height: 70%;
   right: 100%;
 }
 
@@ -497,11 +497,12 @@ body {
 /*  font-family: "Balsamiq Sans", cursive;*/
 /*  color: var(--clr-neon);*/
   padding-right: 1rem;
+
 }
 
 .neon-button {
-  font-size: 1rem;
-  display: inline-block;
+  font-size: 0.75rem;
+  display: inline-flex;
   cursor: pointer;
   text-decoration: none;
   color: var(--clr-neon);
@@ -511,8 +512,9 @@ body {
   text-shadow: 0 0 0.125em rgba(255, 255, 255, 0.3), 0 0 0.45em currentColor;
   box-shadow: inset 0 0 0.5em 0 var(--clr-neon), 0 0 0.5em 0 var(--clr-neon);
   position: relative;
-  left: -25%;
-  top: 25%;
+  left: -20%;
+  top: 20%;
+  margin: 5px;
 }
 
 .neon-button::before {
@@ -524,7 +526,7 @@ body {
   left: 0;
   width: 100%;
   height: 100%;
-  transform: perspective(1em) rotateX(40deg) scale(1, 0.35);
+  transform: perspective(1em) rotateX(40deg) scale(1, 0.3);
   filter: blur(1em);
   opacity: 0.50;
 }
@@ -540,7 +542,7 @@ body {
   opacity: 0;
   background-color: var(--clr-neon);
   z-index: -1;
-  transition: opacity 100ms linear;
+  transition: opacity 10ms linear;
 }
 
 .neon-button:hover,
@@ -573,8 +575,8 @@ button {
   padding: 0.75em 2em;
   position: relative;
   text-transform: uppercase;
-  right: 10%;
-  top: 10%;
+  right: -50%;
+/*  bottom: 10%;*/
 }
 button:hover {
   -webkit-animation: glow 1s ease-in infinite;
@@ -587,7 +589,7 @@ button::before {
   border-radius: inherit;
   content: "";
   filter: blur(10px);
-  opacity: 0.75;
+  opacity: 4px;
   position: absolute;
   transition: all 0.3s ease-in-out;
   width: 100%;
@@ -886,7 +888,7 @@ select {
   outline: 0;
   font: inherit;
   /* Personalize */
-  width: 30em;
+  width: 20em;
   height: 3em;
   padding: 0 4em 0 1em;
   background: url(https://upload.wikimedia.org/wikipedia/commons/9/9d/Caret_down_font_awesome_whitevariation.svg) no-repeat right 0.8em center/1.4em, linear-gradient(to left, rgb(0, 217, 255) 3em, rgba(4, 0, 255, 0.239) 3em);
