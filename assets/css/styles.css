@@ -100,7 +100,7 @@ img {
 
 /* LAYOUT */
 .bd_grid {
-  max-width: 1400px;
+  max-width: 1800px;
   display: grid;
   grid-template-columns: 100%;
   grid-column-gap: 2rem;
@@ -437,7 +437,7 @@ div.text {
 }
 
 .work_container {
-  row-gap: 12rem;
+  row-gap: 8rem;
 }
 
 .work_img {
@@ -512,7 +512,7 @@ body {
   text-shadow: 0 0 0.125em rgba(255, 255, 255, 0.3), 0 0 0.45em currentColor;
   box-shadow: inset 0 0 0.5em 0 var(--clr-neon), 0 0 0.5em 0 var(--clr-neon);
   position: relative;
-  left: -20%;
+  left: 0%;
   top: 20%;
   margin: 5px;
 }
